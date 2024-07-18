@@ -1,0 +1,24 @@
+## Logs
+export LOG_LEVEL=debug
+
+## Gmail
+export IMAP_PORT=993
+export IMAP_USE_TLS=true
+export IMAP_SERVER=imap.gmail.com
+export IMAP_USERNAME=
+export IMAP_PASSWORD=
+
+export SMTP_SERVER=smtp.gmail.com
+export SMTP_PORT=587
+export SMTP_USE_TLS=true
+export SMTP_USERNAME=
+export SMTP_PASSWORD=
+
+export FROM_NAME="John Burgers"
+export FROM_ADDRESS="$SMTP_USERNAME"
+
+## OpenAI
+export OPENAI_API_KEY=
+
+## MariaDB
+export DATABASE_URL=
